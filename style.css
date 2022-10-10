@@ -11,3 +11,25 @@ body {
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
 
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 15px solid #cfcfcf;
+	border-top: 5px solid #cfcfcf;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #cfcfcf;
+	border: 2px;
+	border-bottom: 5px solid #cfcfcf;
+}
+.table td {
+	padding: 5px;
+	border: 2px solid;
+	border-bottom: 5px solid #cfcfcf;
+    border-left: 5px solid #cfcfcf;
+}
+
+
